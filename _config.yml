@@ -24,12 +24,12 @@ author:
   location         : "Boston, Massachusetts, USA"
   orcid            : # "http://orcid.org/yourorcidurl"
   employer         :
-  email            :  
+  email            : "dpoloniajr@gmail.com"  
   uri              :
 
   # Manuscript repositories
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"         # Update with the correct link to your profile
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : #"https://scholar.google.com/citations?user=PS_CX0AAAAAJ"         # Update with the correct link to your profile
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
 
   # Social media
@@ -39,7 +39,7 @@ author:
   facebook         :
   flickr           :
   foursquare       :
-  github           : "academicpages"
+  github           : #"academicpages"
   goodreads        :
   google_plus      :
   keybase          :
@@ -48,14 +48,14 @@ author:
   lastfm           :
   linkedin         :
   kaggle           : # "https://www.kaggle.com/yourprofile"
-  mastodon         : "mastodonhandle"
+  mastodon         : #"mastodonhandle"
   medium           : #"add medium profile url here"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : #"replacethistwitterhandle"
   vine             :
   weibo            :
   wikipedia        :
