@@ -1,22 +1,22 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
+  - title: "Enhancement Plan"
+    url: /enhancementplan/
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "Code Review"
+    url: /codereview/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  - title: "Enhancement One"
+    url: /enhancementone/    
     
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "Enhancement Two"
+    url: /enhancementtwo/
         
-  - title: "Blog Posts"
-    url: /year-archive/
+  - title: "Enhancement Three"
+    url: /enhancementthree/
     
-  - title: "CV"
-    url: /cv/
+  #- title: "CV"
+  #  url: /cv/
     
-  - title: "Guide"
-    url: /markdown/
+  #- title: "Guide"
+  #  url: /markdown/
