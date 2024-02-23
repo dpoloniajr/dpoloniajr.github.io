@@ -26,7 +26,7 @@ My journey toward obtaining this degree began in 2018 as a transfer student from
 TBD
 
 
-Initiating the Project Enhancements
+Portfolio Enhancement Plan
 ------
 
 Course Outcome 1: You EmployED strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science by completing the following enhancements_________
