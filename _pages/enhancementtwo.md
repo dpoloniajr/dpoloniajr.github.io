@@ -4,7 +4,8 @@ title: "Enhancement Two"
 modified: 2024-02-23
 ---
 
-## Algorithm and Data Structures: eBid Monthly Sales Structure Enhancement
+## Algorithm and Data Structures
+## eBid Monthly Sales Structure Enhancement
 
 The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used.
 
