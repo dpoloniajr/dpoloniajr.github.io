@@ -14,9 +14,9 @@ Table of Contents
 ======
 1. Professional Self-Assessment
 2. Code Review of Original Artifacts
-3. Software Engineering and Design - Task and Appointment Application Enhancement
-4. Algorithm and Data Structures - eBid Monthly Sales Structure Enhancement
-5. Databases - Animal Shelter Database Enhancement
+3. Software Engineering and Design: Task and Appointment Application Enhancement
+4. Algorithm and Data Structures: eBid Monthly Sales Structure Enhancement
+5. Databases: Animal Shelter Database Enhancement
 
 
 Professional Self-Assessment
