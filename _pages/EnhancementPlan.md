@@ -4,9 +4,6 @@ title: "Enhancement Plan"
 modified: 2024-02-22
 ---
 
-{% include base_path %}
-{% include toc %}
-
 ## Enhancement Plan
 
 The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used.
