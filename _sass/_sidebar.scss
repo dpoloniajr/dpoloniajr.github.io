@@ -70,16 +70,16 @@
    ========================================================================== */
 
 .author__avatar img {
-  max-width: 250px; /* Increase the maximum width of the image */
-  width: 175px; /* Set the width of the image to create a square shape */
-  height: 250px; /* Set the height of the image to create a square shape */
-  border-radius: 50%;
-
+  max-width: 250px; // Adjust as needed
+  width: 175px; // Ensure this matches the height if you want a square
+  height: 175px; // Adjust to match width for a square shape
+  // border-radius: 50%; // Remove or comment out for a square image
   @include breakpoint($large) {
     padding: 5px;
     border: 1px solid $border-color;
   }
 }
+
 
 .author__content {
   display: table-cell;
