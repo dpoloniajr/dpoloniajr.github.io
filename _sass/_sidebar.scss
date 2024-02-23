@@ -81,17 +81,6 @@
   }
 }
 
-  img {
-    max-width: 500px;
-    border-radius: 10%;
-
-    @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
-    }
-  }
-}
-
 .author__content {
   display: table-cell;
   vertical-align: top;
