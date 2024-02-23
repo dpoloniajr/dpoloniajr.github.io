@@ -75,7 +75,7 @@
   height: 250px; // Adjust to match width for a square shape
   // border-radius: 50%; // Remove or comment out for a square image
   @include breakpoint($large) {
-    padding: 5px;
+    padding: 50px;
     border: 1px solid $border-color;
   }
 }
