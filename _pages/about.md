@@ -41,16 +41,21 @@ Course Outcome 1: I EmployED strategies for building collaborative environments 
 2. Using a test instance and test credentials to simulate cyber attacks.
 3. Using a test instance and test credentials for learning and innovation.
 
+
 Course Outcome 2: I DesignED, DevelopED, and DeliverED professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts by completing the following enhancements_________
+
 
 Course Outcome 3: I DesignED and EvaluateED computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices by completing the following enhancements_________
 
+
 Course Outcome 4: I DemonstrateD an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals by completing the following enhancements_________
+
 
 Course Outcome 5: I DevelopED a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources by completing the following enhancements in the Animal Shelter Database Enhancement:
 
 1. Promoting secure development lifecycle practices.
 2. Enforcing the principle of least privilege.
 3. Facilitating test environments for security audits and penetration testing.
+
 
 Following the portfolio enhancement plan introduction, I first reviewed the code and identified areas of weakness in the code as well as potential enhancement options for the artifact. Each enhancement will go into further depth on the course outcomes and the steps taken from selecting the artifact to final results, potential risks, and possibilities for future enhancements.
