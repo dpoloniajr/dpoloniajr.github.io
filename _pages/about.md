@@ -23,7 +23,9 @@ Professional Self-Assessment
 ------
 My journey toward obtaining this degree began in 2018 as a transfer student from a local community college. I have now become a dedicated computer science student currently in my senior year at Southern New Hampshire University. I'm enthusiastic about commencing my professional development as a software engineer and becoming part of the bigger picture in the development world. As a soon-to-be computer science graduate with a focus on software development, I have gained a broad range of technical, problem-solving, and soft skills to excel in the field, resulting in an expanded understanding of secure coding practices as well as what is "under the hood" through reserve software engineering of executed software systems.
 
-TBD
+In the near future, I aim to find a role within an innovative company that prioritizes cybersecurity and truly understands the importance of building software with robust security measures. Drawing on my skills in secure coding, cryptography, and penetration testing, I want to contribute to strengthening the security of their software products and minimizing potential risks. I'm excited about the prospect of working on stimulating projects and learning from experienced professionals, collaborating on cutting-edge secure development and reverse engineering techniques.
+
+Looking ahead, my ultimate goal is to make a meaningful impact in the fields of cybersecurity and reverse engineering. Whether it involves advancing secure development practices, pioneering new reverse engineering methodologies, conducting research, or mentoring the next generation of professionals, I'm committed to leaving a positive mark on the industry. I believe in driving change throughout my career and making a lasting contribution to the ever-evolving landscape of cybersecurity and reverse engineering.
 
 
 Portfolio Enhancement Plan
