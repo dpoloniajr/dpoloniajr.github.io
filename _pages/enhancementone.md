@@ -173,14 +173,14 @@ public class Task {
 
 ### Lessons Learned
 
-TBD
+Reflecting on the process of enhancing the Task and Task Service artifacts, the goal was to improve the user experience through iterative development and adaption. With a focus on software engineering and design, the new feature maintained the existing functionality of the application but reduced manual input, which ultimately saved the user time. While exploring enhancement options, I learned that there are many avenues in which this artifact can be enhanced using continuous improvement. The challenge faced was updating all the files accordingly to reduce the risk of poorly commented code for future enhancements or collaboration.
 
 
 ### Skills and Abilities Showcased
 
-1.	
-2.	
-3.	
+1. Algorithmic thinking and problem-solving by understanding the functionality of the software, how users will interact with the application, and creating enhancements that demonstrate the ability to anticipate user needs.	
+2. Focus on software architecture and design by using a helper class to manage default values and structure the code in a maintainable and scalable way, adhering to software architecture practices commonly used for setting specific behaviors.	
+3. Testing and quality assurance using a unit test to verify the smart default functionality passes in different scenarios through the composition of testable code, also known as Test-Driven Development (TDD).	
 
 
 ### Course Outcomes Demonstrated
