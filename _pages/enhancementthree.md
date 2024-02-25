@@ -42,16 +42,16 @@ Implementing a test configuration and test instance in the CrudModule, Dashboard
 
 ### Course Outcomes Demonstrated
 
-### 1.	Employment strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science by:
+### Employment strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science by:
 
-a.	Using a test instance for privacy and data protection
-b.	Using a test instance to simulate cyber attacks
-c.	Using a test instance for learning and innovation
+1.	Using a test instance for privacy and data protection
+2.	Using a test instance to simulate cyber attacks
+3.	Using a test instance for learning and innovation
 
-### 2.	The development of a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources by:
+### The development of a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources by:
 
-a.	Promoting secure development lifecycle practices
-b.	Enforcing the principle of least privilege
-c.	Facilitating test environments for security audits and penetration testing
+1.	Promoting secure development lifecycle practices
+2.	Enforcing the principle of least privilege
+3.	Facilitating test environments for security audits and penetration testing
 
 Original and enhanced technical files can be found in the course repository [CS340 Advanced Programming Concepts](https://github.com/dpoloniajr/CS-340-Advanced-Programming-Concepts/tree/main).
