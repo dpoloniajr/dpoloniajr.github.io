@@ -15,7 +15,7 @@ The artifact selected for enhancement in the database is the CrudModule class fi
 2. None of the files include a header, which should include the programmer, version, and a description of the file's purpose
 3. While there is a print function for displaying exceptions, they do not give additional details which slows error handling
 
-![Original Code](images/3Original.png "The original CRUD class file")
+![Original Code](_images/3Original.png "The original CRUD class file")
 
 
 ### Enhancements Made
