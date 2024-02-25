@@ -69,7 +69,7 @@ public class Task {
 5.	Updated the TaskServiceTest class file to test that when a new task is created with a selected contact, the default name is set correctly.
 6.	Added a header to the code files, followed by updating code comments throughout the class files.
 
-While the course assignment did not have a visual component requirement, the enhancements proposed in Module One were successful in aligning with communications that adapted to the audience, in this case customers, or contacts, and their context, setting an appointment using their default service preference. This enhancement also demonstrated the use of innovative techniques with the purpose of creating solutions that deliver value and accomplish industry-specific goals, such as operational efficiency and the ability to establish individual preferences. 
+While the course assignment did not have a visual component requirement, the enhancements proposed in the Portfolio Enhancement Plan were successful in aligning with communications that adapted to the audience, in this case customers, or contacts, and their context, setting an appointment using their default service preference. This enhancement also demonstrated the use of innovative techniques with the purpose of creating solutions that deliver value and accomplish industry-specific goals, such as operational efficiency and the ability to establish individual preferences. 
  
 
 ### Default Task Helper
