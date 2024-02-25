@@ -142,14 +142,14 @@ Implementing a test configuration and test instance in the CrudModule, Dashboard
 
 ### Employment strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science by:
 
-1.	Using a test instance for privacy and data protection
-2.	Using a test instance to simulate cyber attacks
-3.	Using a test instance for learning and innovation
+1.	Using a test instance for privacy and data protection in strategic development, collaborative privacy design, and access controls.
+3.	Using a test instance to simulate cyber attacks in cross-functional cybersecurity testing, feedback, and incident response, and cybersecurity awareness.
+4.	Using a test instance for learning and innovation in learning opportunities, prototype testing, and collaborative workflows.
 
 ### The development of a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources by:
 
-1.	Promoting secure development lifecycle practices
-2.	Enforcing the principle of least privilege
-3.	Facilitating test environments for security audits and penetration testing
+1.	Promoting secure development lifecycle practices in continuous security training, automated security scanning, and risk assessment and management.
+2.	Enforcing the principle of least privilege in minimal access rights, regular access reviews, and zero trust architecture.
+3.	Facilitating test environments for security audits and penetration testing in dedicated testing environments, regular penetration testing, and security audits.
 
 Original and enhanced technical files can be found in the course repository [CS340 Advanced Programming Concepts](https://github.com/dpoloniajr/CS-340-Advanced-Programming-Concepts/tree/main).
