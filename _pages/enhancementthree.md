@@ -57,7 +57,7 @@ class AnimalShelter(object):
 5.	The replacement of the printing statement for logging, which is a more suitable solution for the use of development and production environments, making outputs cleaner.
 6.	The replacement of block exceptions with catch-specific exceptions, which helps with debugging by providing more information on errors as they arise.
 
-The enhancements made to the CrudModule class file, and its associated files, exceeded the planned enhancement proposed in Module One. The plan originally focused on just the CrudModule class file, but while incorporating improvements, files associated with the CrudModule class file needed to reflect the enhancements made in incorporating the test configuration and test instance. As a result of the enhancement, the outcome-coverage plan was updated to include separate files for production and development testing.  
+The enhancements made to the CrudModule class file, and its associated files, exceeded the planned enhancement proposed in the Portfolio Enhancement Plan. The plan originally focused on just the CrudModule class file, but while incorporating improvements, files associated with the CrudModule class file needed to reflect the enhancements made in incorporating the test configuration and test instance. As a result of the enhancement, the outcome-coverage plan was updated to include separate files for production and development testing.  
 
 
 ### Enhanced CRUD class file
