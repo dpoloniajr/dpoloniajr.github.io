@@ -152,4 +152,4 @@ Implementing a test configuration and test instance in the CrudModule, Dashboard
 2.	Enforcing the principle of least privilege in minimal access rights, regular access reviews, and zero trust architecture.
 3.	Facilitating test environments for security audits and penetration testing in dedicated testing environments, regular penetration testing, and security audits.
 
-Original and enhanced technical files can be found in the course repository [CS320 Software Automation and Quality Assurance]([https://github.com/dpoloniajr/CS-320-Software-Testing-Automation-and-QA/tree/main]).
+Original and enhanced technical files can be found in the course repository [CS320 Software Automation and Quality Assurance]([https://github.com/dpoloniajr/CS-320-Software-Testing-Automation-and-QA]).
