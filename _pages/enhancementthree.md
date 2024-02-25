@@ -16,7 +16,7 @@ The artifact selected for enhancement in the database is the CrudModule class fi
 3. While there is a print function for displaying exceptions, they do not give additional details which slows error handling
 
 
-<pre>
+```python
 from pymongo import MongoClient
 from bson.objectid import ObjectId
 
@@ -43,7 +43,7 @@ class AnimalShelter(object):
                 raise Exception("Nothing to save, data is empty")
         except:
             return False # return false for bool requirement
-</pre>
+```
 
 
 ### Enhancements Made
@@ -58,7 +58,7 @@ class AnimalShelter(object):
 The enhancements made to the CrudModule class file, and its associated files, exceeded the planned enhancement proposed in Module One. The plan originally focused on just the CrudModule class file, but while incorporating improvements, files associated with the CrudModule class file needed to reflect the enhancements made in incorporating the test configuration and test instance. As a result of the enhancement, the outcome-coverage plan was updated to include separate files for production and development testing.  
 
 
-<pre>
+```python
 # ==================================================================
 # File: CRUD Class 
 # Programmer Name: Domingo Polonia Jr
@@ -123,7 +123,7 @@ class AnimalShelter(object):
         except Exception as e:
             logging.error(f"Unexpected error: {e}")
             return {'success': False, 'error': 'Unexpected error occurred'}
-</pre>
+```
 
 
 ### Lessons Learned
