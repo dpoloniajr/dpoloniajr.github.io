@@ -6,150 +6,189 @@ modified: 2024-02-23
 
 ## Task Service Application Enhancement
 
-The artifact selected for enhancement in the database is the CrudModule class file, part of the Grazioso Salvare Project in the Advanced Programming Concepts course (CS340). The artifact, developed using Python, was created in December 2022, to authenticate access to the database and implement the CRUD (create, read, update, and delete) functionality for the database. The project consisted of the import of the mongoimport tool for accessing the database, the creation of an administrator and user account, a PY file, using object-oriented programming methodology, to enable the CRUD functionality, and a Python module to test and ensure each account type could be accessed and each part of the CRUD module operated properly.
+The artifacts selected for enhancement in the software engineering and design category are Task and Task Service class, part of the Grand Strand Application Project in the Software Testing, Automation, and Quality Assurance course (CS320). The artifacts were originally created in December 2021, and the two Java class files were developed to use in-memory data structures to support storing tasks. The Task class required a name string field between 1 and 20 characters, therefore not null, and a description field of no more than 50 characters. The Task Service Class required a unique ID with the ability to delete and update tasks per task ID. Only the name and description fields can be updated. 
+
 
 
 ### Weaknesses and Limitations
 
-1. Authentication and database access are limited to live data only which puts the data at risk
-2. None of the files include a header, which should include the programmer, version, and a description of the file's purpose
-3. While there is a print function for displaying exceptions, they do not give additional details which slows error handling
+1. 
+2. 
+3. 
 
 
-```python
-from pymongo import MongoClient
-from bson.objectid import ObjectId
+### Original Task Class File
 
-class AnimalShelter(object):
-    """CRUD OPERATIONS for Animal Collection in MongoDB"""
-    
-    def __init__(self, user, password):
-        #self.client = MongoClient('mongodb://localhost:53598')
-        #self.client = MongoClient('mongodb://127.0.0.1:37300/?authSource=AAC&compressors=disabled&gssapiServiceName=mongodb' % (user, password))
-        self.client = MongoClient('mongodb://%s:%s@localhost:53598/AAC' % (aacuser, UserCS340))
-        self.database = self.client['AAC']
-        print("Connected to Database")
-}
+```java
+package task;
 
-  #Implement create in Crud
-    def create(self, data):
-        try:
-            if data is not None:
-                insert_result = self.database.animals.insert_one(data) #data should be dictionary
-                print(insert_result)
-                return True
-            else:
-                #Raise error
-                raise Exception("Nothing to save, data is empty")
-        except:
-            return False # return false for bool requirement
+public class Task {
+
+	/*
+	 * We initialize our variables to be used in the constructor and 
+	 * mutator/accessor methods
+	 */
+	private String taskId;
+	private String name;
+	private String description;
+
+	/*
+	 * Our constructor with its parameters and conditionals set to the 
+	 * specifications in the requirements doc. Then assigning the values 
+	 * if the conditional statements pass.
+	 */
+	
+	public Task(String id, String name, String desc) {
+
+		if (id == null || id.length() > 10) {
+			throw new IllegalArgumentException("Invalid Id");
+		}
+
+		if (name == null || name.length() > 20) {
+			throw new IllegalArgumentException("Invalid Task Name");
+		}
+
+		if (desc == null || desc.length() > 50) {
+			throw new IllegalArgumentException("Invalid Description");
+		}
+		
+		this.taskId = id;
+		this.name = name;
+		this.description = desc;
+
+	}
 ```
 
 
 ### Enhancements Made
 
-1.	Incorporating a test mode configuration parameter within the AnimalShelter Python file, which runs the instance in test mode if test mode = true.
-2.	Importing the use of Mongomock in the CrudModule class file, which is used for in-memory database access in testing environments.
-3.	 Incorporating test credentials for database access authentication.
-4.	Separate test scripts for testing in production and development environments.
-5.	The replacement of the printing statement for logging, which is a more suitable solution for the use of development and production environments, making outputs cleaner.
-6.	The replacement of block exceptions with catch-specific exceptions, which helps with debugging by providing more information on errors as they arise.
+1.	Created a helper class file, which contains the logic for generating default task names
+2.	Modified the Task class file to call ‘DefaultTaskHelper.generateDefaulTaskName’ when a contact is selected.
+3.	Updated the Task and TaskService class files to use ‘DefaultTaskHelper’ to set the default name when a new task is created without a specific name.
+4.	Created a new test class, ‘DefaultTaskHelperTest’, and wrote unit tests that pass contact names to ‘generateDefaultTaskName’ and return the correct default task name.
+5.	Updated the TaskServiceTest class file to test that when a new task is created with a selected contact, the default name is set correctly.
+6.	Added a header to the code files, followed by updating code comments throughout the class files.
 
-The enhancements made to the CrudModule class file, and its associated files, exceeded the planned enhancement proposed in Module One. The plan originally focused on just the CrudModule class file, but while incorporating improvements, files associated with the CrudModule class file needed to reflect the enhancements made in incorporating the test configuration and test instance. As a result of the enhancement, the outcome-coverage plan was updated to include separate files for production and development testing.  
+While the course assignment did not have a visual component requirement, the enhancements proposed in Module One were successful in aligning with communications that adapted to the audience, in this case customers, or contacts, and their context, setting an appointment using their default service preference. This enhancement also demonstrated the use of innovative techniques with the purpose of creating solutions that deliver value and accomplish industry-specific goals, such as operational efficiency and the ability to establish individual preferences. 
+ 
+
+### Default Task Helper
+
+```java
+/*
+ * File: Default Task Helper
+ * Programmer Name: Domingo Polonia Jr
+ * Created For: Copmuter Science Capstone CS499
+ * Creation Date: February 2024
+ * Date: 02-25-2024
+ * Version: 1.1
+ * Description: This Java class will contain the logic for generation the default task names
+ */
+
+ // A defaulttaskhelper package is created to separate the code into directories
+package defaulttaskhelper;
+
+// Import the associated class file it has a different package
+import task.Task; 
+
+public class DefaultTaskHelper {
+
+	// The logic to generate and return the default task name
+	public static String generateDefaultTaskName(String contactName) {
+		return "Default Task for " + contactName; // Placeholder logic
+		}
+
+		// Method to create a Task object with smart defaults
+		public static Task createTaskWithDefaults(String id, String contactName, String desc) {
+			String defaultName = generateDefaultTaskName(contactName);
+			return new Task(id, defaultName, desc); // Using the Task constructor
+		}
+}
+```
 
 
-```python
-# ==================================================================
-# File: CRUD Class 
-# Programmer Name: Domingo Polonia Jr
-# Created For: Advanced Programming Concepts CS340
-# Creation Date: December 2022
-# Course: CS499 Capstone
-# Date: 02-21-2024
-# Version: 2.2
-# Description: This Python class file is to capture the logic for
-# Create, Read, Update, and Delete operations. For testing purposes
-# this file also imports a mongomock library, used for in-memory
-# database access, logging for debugging purposes, and detailed error
-# handling, to catch specific exceptions.
-# ==================================================================
+### Enhanced Task Class File
 
-from pymongo import MongoClient
-from bson.objectid import ObjectId
-import mongomock
-import logging
+```java
+/*
+ * File: Task Class
+ * Programmer Name: Domingo Polonia Jr
+ * Created For: Software Testing Automation and Quality Assurance CS320
+ * Creation Date: December 2021
+ * Course: CS499 Capstone
+ * Date: 02-25-2024
+ * Version: 2.2
+ * Description: This Java class uses in-memory data structures to support storing tasks (no database required).
+ * The Task Class requirements are: 
+ * 1. The task object shall have a required unique task ID String that cannot be longer than 10 characters. 
+ * 2. The task ID shall not be null and shall not be updatable.
+ * 3. The task object shall have a required name String field that cannot be longer than 20 characters. 
+ * 4. The name field shall not be null. 
+ * 5. The task object shall have a required description String field that cannot be longer than 50 characters. 
+ * 6. The description field shall not be null.
+ */
 
-# Configure logging
-logging.basicConfig(level=logging.INFO)
+package task;
 
-class AnimalShelter(object):
-    """CRUD OPERATIONS for Animal Collection in MongoDB"""
-    
-    def __init__(self, user, password, aacuser, UserCS340, db_connection=None):
-        # If a mock database connection is provided, use it
-        # Otherwise, establish a new MongoDB connection with the given credentials
-        if db_connection:
-            self.database = db_connection
-        else:
-            # Original connection string modified to accept credentials
-            self.client = MongoClient('mongodb://%s:%s@localhost:53598/AAC' % (aacuser, UserCS340))
-            self.database = self.client['AAC']
+// Import the DefaultTaskHelper class
+import defaulttaskhelper.DefaultTaskHelper;
 
-        print("Connected to Database")
+public class Task {
 
-        # Usage in test environment
-        # Assuming a test environment is required and mongomock needs to be used
-        
-    def test_setup():
-        mock_db = mongomock.MongoClient().AAC
-        animal_shelter = AnimalShelter(user="dummyUser", password="dummyPassword", aacuser="dummyAacuser", UserCS340="dummyUserCS340", db_connection=mock_db)
-        # The animal_shelter class can now be used with a mocked database for testing
+	// Initialize the variables to be used in the constructor and mutator/accessor methods
+	private String taskId;
+	private String name;
+	private String description;
 
-  #Implement Create in Crud
-    def create(self, data):
-        try:
-            if data is not None:
-                # Data should be dictionary
-                insert_result = self.database.animals.insert_one(data) 
-                # Logging for debugging purposes in production application
-                logging.info(f"Insert successful, ID: {insert_result.inserted_id}")
-                return {'success': True, 'id': insert_result.inserted_id}
-            else:
-                # Specific error handling to catch exceptions
-                raise ValueError("Nothing to save, data is empty")
-        except ValueError as ve:
-            logging.error(f"Validation error: {ve}")
-            return {'success': False, 'error': str(ve)}
-        except Exception as e:
-            logging.error(f"Unexpected error: {e}")
-            return {'success': False, 'error': 'Unexpected error occurred'}
+	/*
+	 * Our constructor with its parameters and conditionals set to the 
+	 * specifications in the requirements doc. Then assigning the values 
+	 * if the conditional statements pass.
+	 */
+
+	/*
+     * Modified constructor to include logic for setting a default name using
+     * DefaultTaskHelper when name is not provided.
+     * Original parameters and conditionals set to the specification requirements
+	 * remain and the values are assigned if the conditional statements pass.
+     */
+	
+	 public Task(String id, String name, String desc, String contactName) { // Added contactName parameter
+
+        if (id == null || id.length() > 10) {
+            throw new IllegalArgumentException("Invalid Id");
+        }
+
+        // Check if name is provided, else use DefaultTaskHelper to generate it
+        if (name == null || name.isEmpty()) {
+            this.name = DefaultTaskHelper.generateDefaultTaskName(contactName); // Generate default name based on contact
+        } else if (name.length() > 20) {
+            throw new IllegalArgumentException("Invalid Task Name");
+        } else {
+            this.name = name;
+        }
+// No changes to remaining code
 ```
 
 
 ### Lessons Learned
 
-Implementing a test configuration and test instance in the CrudModule, Dashboard, and test script class files was important in learning additional concepts in database-driven applications. For example, one concept learned is designing software in modular components to allow swapping between production and test instances. Additionally, keeping in mind additional enhancements, using a method to toggle between instances allows the enhancements to be tested in a development environment before it’s deployed. The main challenge faced in incorporating the enhancement was consistency between the files, but code reviews and documentation helped detect inconsistency in the enhancement. 
+TBD
 
 
 ### Skills and Abilities Showcased
 
-1.	Database management by creating database schemas for different environments and designing test data that reflects production data structures without using real data.
-2.	Database system design by creating a modular design that allows switching between different configurations, in this case, a test configuration and instance.
-3.	Database collaboration by documenting code files in a way to allows for cross-functional team collaboration for development, security, and operations.
+1.	
+2.	
+3.	
 
 
 ### Course Outcomes Demonstrated
 
-### Employment strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science by:
+### Demonstrating an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals (software engineering/design/database) by:
 
-1.	Using a test instance for privacy and data protection in strategic development, collaborative privacy design, and access controls.
-3.	Using a test instance to simulate cyber attacks in cross-functional cybersecurity testing, feedback, and incident response, and cybersecurity awareness.
-4.	Using a test instance for learning and innovation in learning opportunities, prototype testing, and collaborative workflows.
-
-### The development of a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources by:
-
-1.	Promoting secure development lifecycle practices in continuous security training, automated security scanning, and risk assessment and management.
-2.	Enforcing the principle of least privilege in minimal access rights, regular access reviews, and zero trust architecture.
-3.	Facilitating test environments for security audits and penetration testing in dedicated testing environments, regular penetration testing, and security audits.
+1.	Using smart default logic to improve the overall user experience.
+2.	Creating a helper class to implement the smart default functionality and allow for developer collaboration and configuration management.
+3.	Integrating the smart default logic into the task creation form, using the contact name as a parameter for the task input.
 
 Original and enhanced technical files can be found in the course repository [CS320 Software Automation and Quality Assurance]([https://github.com/dpoloniajr/CS-320-Software-Testing-Automation-and-QA]).
