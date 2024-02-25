@@ -42,14 +42,14 @@ Course Outcome 1: I EmployED strategies for building collaborative environments 
 3. Using a test instance and test credentials for learning and innovation.
 
 
-Course Outcome 2: I DesignED, DevelopED, and DeliverED professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts by completing the following enhancements eBid Monthly Sales Structure Enhancement:
+Course Outcome 2: I DesignED, DevelopED, and DeliverED professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts by completing the following enhancements Bid ID Search Structure Enhancement:
 
 1. TBD
 2. TBD
 3. TBD
 
 
-Course Outcome 3: I DesignED and EvaluateED computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices by completing the following enhancements eBid Monthly Sales Structure Enhancement:
+Course Outcome 3: I DesignED and EvaluateED computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices by completing the following enhancements Bid ID Search Structure Enhancement:
 
 1. TBD
 2. TBD
