@@ -37,23 +37,23 @@ This portfolio is a curated collection of my work, enhanced and refined, to not 
 
 Course Outcome 1: I EmployED strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science by completing the following enhancements in the Animal Shelter Database Enhancement:
 
-1. Using a test instance for privacy and data protection.
-2. Using a test instance and test credentials to simulate cyber attacks.
+1. Integration of a test instance for privacy and data protection.
+2. Creation of a test instance and test credentials to simulate cyber attacks.
 3. Using a test instance and test credentials for learning and innovation.
 
 
 Course Outcome 2: I DesignED, DevelopED, and DeliverED professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts by completing the following enhancements Bid ID Search Structure Enhancement:
 
-1. TBD
-2. TBD
-3. TBD
+1. Implementing UX design and communication tailored to the audience.
+2. Developing code for collaboration, maintenance, and continuous improvement.
+3. Using the interface to encourage stakeholder engagement for expedited error handling.
 
 
 Course Outcome 3: I DesignED and EvaluateED computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices by completing the following enhancements Bid ID Search Structure Enhancement:
 
-1. TBD
-2. TBD
-3. TBD
+1. Load balancing and complexity management of algorithms through a Distributed Hash Table.
+2. Data integrity and adherence to industry security standards by transitioning to a DHT.
+3. Compating a hash table to a DHT for eveluating latency vs decentralizatio.
 
 
 Course Outcome 4: I DemonstrateD an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals by completing the following enhancements in the Task Service Data Structure Enhancement:
