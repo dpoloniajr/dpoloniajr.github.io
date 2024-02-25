@@ -42,12 +42,14 @@ Implementing a test configuration and test instance in the CrudModule, Dashboard
 
 ### Course Outcomes Demonstrated
 
-#### 1.	Employment strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science by:
+### 1.	Employment strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science by:
+
 a.	Using a test instance for privacy and data protection
 b.	Using a test instance to simulate cyber attacks
 c.	Using a test instance for learning and innovation
 
-#### 2.	The development of a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources by:
+### 2.	The development of a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources by:
+
 a.	Promoting secure development lifecycle practices
 b.	Enforcing the principle of least privilege
 c.	Facilitating test environments for security audits and penetration testing
