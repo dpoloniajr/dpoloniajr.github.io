@@ -53,7 +53,7 @@ Course Outcome 3: I DesignED and EvaluateED computing solutions that solve a giv
 
 1. Load balancing and complexity management of algorithms through a Distributed Hash Table.
 2. Data integrity and adherence to industry security standards by transitioning to a DHT.
-3. Compating a hash table to a DHT for evaluating latency vs decentralization.
+3. Computing a hash table to a DHT for evaluating latency vs decentralization.
 
 
 Course Outcome 4: I DemonstrateD an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals by completing the following enhancements in the Task Service Data Structure Enhancement:
