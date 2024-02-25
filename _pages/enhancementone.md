@@ -12,9 +12,9 @@ The artifacts selected for enhancement in the software engineering and design ca
 
 ### Weaknesses and Limitations
 
-1. 
-2. 
-3. 
+1. There is no exception error returned when a specific name is not provided
+2. None of the files include a header, which should include the programmer, version, and a description of the file's purpose.
+3. The comments in the original file lack direction for collaborators and stakeholders to understand each step of the code
 
 
 ### Original Task Class File
