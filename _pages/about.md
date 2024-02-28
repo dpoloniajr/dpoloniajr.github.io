@@ -44,16 +44,16 @@ Course Outcome 1: I EmployED strategies for building collaborative environments 
 
 Course Outcome 2: I DesignED, DevelopED, and DeliverED professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts by completing the following enhancements Bid ID Search Structure Enhancement:
 
-1. Implementing UX design and communication tailored to the audience.
-2. Developing code for collaboration, maintenance, and continuous improvement.
-3. Using the interface to encourage stakeholder engagement for expedited error handling.
+1. Implementing a balanced binary tree structure to enable efficient ordered data storage and retrieval.
+2. Developing insertion algorithms that maintain the balance of the tree, ensuring the time it takes to complete the operation increases logarithmically with the size of the input data.
+3. Creating a range query method that efficiently finds all bids within a given range, leveraging the ordered nature of the tree.
 
 
 Course Outcome 3: I DesignED and EvaluateED computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices by completing the following enhancements Bid ID Search Structure Enhancement:
 
-1. Load balancing and complexity management of algorithms through a Distributed Hash Table.
-2. Data integrity and adherence to industry security standards by transitioning to a DHT.
-3. Computing a hash table to a DHT for evaluating latency vs decentralization.
+1. Enhancing the data structure from a simple hash table to a balanced binary tree, such as an AVL tree, to manage algorithmic complexity and improve performance scalability. 
+2. Ensuring data integrity and security by implementing a binary tree structure that adheres to industry standards and practices.
+3. Transition the underlying data structure to a balanced binary tree to evaluate and optimize the trade-offs between data retrieval latency and structure organization.
 
 
 Course Outcome 4: I DemonstrateD an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals by completing the following enhancements in the Task Service Data Structure Enhancement:
