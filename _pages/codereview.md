@@ -16,7 +16,7 @@ In reviewing the Grand Strand Application Project, I have set forth an enhanceme
 ### Category 2: Algorithm and Data Structures
 ### Artifact Name(s): Bid ID Search Structure Hash Table Enhancement
 
-In the second category, I focused on enhancing the data structure of the Bid ID Search Hash Table. By transitioning to a Distributed Hash Table (DHT) and integrating a graphical interface, the project aims to improve scalability and interactivity. The introduction of SFML and the development of a new main C++ file to support the graphical interface will bring a new level of intuitive operation and efficient data visualization, ensuring the application meets modern algorithmic principles and computer science standards.
+In the second category, my efforts were concentrated on advancing the data structure of the Bid ID Search Hash Table. By evolving to a Balanced Binary Search Tree (BST), by maintaining their elements in a sorted order based on their keys, offers more predictability in performance, and works best with operations such as range searches, ordered data retrieval, and sorted data enumeration. This transition not only enhances data management through ordered structure and improved range queries but also aligns the application with contemporary algorithmic practices and computer science standards.
 
 ### Category 3: Databases
 ### Artifact Name(s): Animal Shelter Database Enhancement
