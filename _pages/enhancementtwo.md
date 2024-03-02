@@ -212,6 +212,9 @@ Bid HashTable::Search(string bidId) {
 6.	Created a header declaration for the CSVparser.cpp file.
 
 
+The enhancements made to the Hash Table class file, and its associated files, were completely different than the enhancement originally proposed. The original plan consisted of converting the hash table to a distributed hash table (DHT) and integrating a graphical interface. Once the plan was put into motion, it was clear that there would still be limitations to the DHT. The DHT does not maintain an order for easy navigation and queries are generally more complex. Changing the plan to convert the hash table to a balanced binary search tree (BST) allowed for a simpler conversion and ongoing maintenance, and it is well-suited for data structures that consist of dynamic data, or data that changes over time. 
+
+
 ### Enhanced Balanced Binary Search Tree - Highlight of Class Definition
 
 ```cpp
@@ -422,13 +425,13 @@ void BSTree::rangeQuery(Node* node, string lower, string upper) {
         return; // Base case: Reached the end of a branch
     }
 
-    // Since the tree is a BST, nodes are in order, so we can efficiently determine which side(s) to explore.
+    // Since the tree is a BST, nodes are in order, it can be determined which side(s) to explore.
     // If the current node's bidId is greater than the lower bound, explore the left subtree.
     if (node->bid.bidId > lower) {
         rangeQuery(node->left, lower, upper);
     }
 
-    // If the current node is within the range, process it. Here, we simply display the bid.
+    // If the current node is within the range, process it. Display the bid.
     if (node->bid.bidId >= lower && node->bid.bidId <= upper) {
         displayBid(node->bid);
     }
@@ -440,10 +443,9 @@ void BSTree::rangeQuery(Node* node, string lower, string upper) {
 }
 ```
 
-
 ### Lessons Learned
 
-TBD
+Converting the hash table to a balanced binary search tree (BST) was important to learning concepts in algorithms and data structures. For example, after considering what a scenario in a real-world application would entail, sales would be added and logged throughout the month, and the key would be needed to search for any new entries to search for them in a hash table, which is not necessary with a BST, since the range query can include a search for all entries in a month. The challenge in the hash table enhancement was weighing the pros and cons of different data structures or variations of a data structure to determine the best solution for the data set.
 
 
 ### Skills and Abilities Showcased
