@@ -30,4 +30,4 @@ Throughout this process, I have evaluated each project's current state, identify
 In conclusion, each enhancement underscores a forward-thinking approach to software development, from user experience to data structure efficiency and database integrity. I am confident that these improvements will elevate the overall functionality and user satisfaction of each application. I now look forward to your questions and insights as we move towards implementing these enhancements.
 
 
-# [Watch the Code Review](http://www.google.com/analytics/learn/privacy.html)
+# [Watch the Code Review]([https://youtu.be/ggLI6QEsQFY])
